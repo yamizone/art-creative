@@ -1,0 +1,127 @@
+.arteco-3 {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 12(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.arteco-3 a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-3 a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-3 a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_8.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_10.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_12.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_13.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_14.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_15.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(16){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_16.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(17){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_17.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(18){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_18.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-3 a:nth-child(19){
+	background-image: url("../img/valpaint-dt-img/arteco-3/arteco_3_pattern_19.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+		.arteco-3 a {height: 80px;}

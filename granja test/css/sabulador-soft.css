@@ -1,0 +1,135 @@
+.sabulador-soft {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 12(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.sabulador-soft a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.sabulador-soft a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.sabulador-soft a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_8.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_10.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_12.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_13.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_14.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_15.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(16){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_16.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(17){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_17.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(18){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_18.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(19){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_19.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sabulador-soft a:nth-child(20){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft/11_sabulador_soft_20.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+		.sabulador-soft a {height: 80px;}

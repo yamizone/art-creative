@@ -1,0 +1,702 @@
+.arteco-1 {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 12(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.arteco-1 a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_8.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_10.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_12.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_13.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_14.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_15.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(16){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_16.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(17){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_17.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(18){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_18.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(19){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_19.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(20){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_20.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.arteco-1 a:nth-child(21){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_21.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(22){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_22.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(23){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_23.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(24){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_24.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(25){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_25.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(26){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_26.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(27){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_27.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(28){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_28.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(29){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_29.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(30){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_30.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(31){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_31.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(32){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_32.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(33){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_33.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(34){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_34.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(35){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_35.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(36){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_36.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(37){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_37.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(38){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_38.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(39){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_39.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(40){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_40.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(41){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_41.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(42){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_42.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(43){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_43.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(44){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_44.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(45){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_45.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(46){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_46.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(47){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_47.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(48){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_48.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(49){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_49.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(50){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_50.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(51){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_51.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(52){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_52.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(53){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_53.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(54){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_54.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(55){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_55.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(56){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_56.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(57){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_57.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(58){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_58.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(59){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_59.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(60){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_60.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.arteco-1 a:nth-child(61){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_61.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(62){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_62.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(63){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_63.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(64){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_64.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(65){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_65.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(66){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_66.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(67){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_67.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(68){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_68.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(69){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_69.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(70){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_70.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(71){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_71.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(72){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_72.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(73){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_73.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(74){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_74.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(75){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_75.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(76){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_76.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(77){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_77.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(78){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_78.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(79){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_79.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(80){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_80.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(81){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_81.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(82){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_82.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(83){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_83.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(84){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_84.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(85){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_85.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(86){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_86.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(87){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_87.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(88){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_88.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(89){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_89.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(90){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_90.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(91){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_91.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(92){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_92.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(93){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_93.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(94){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_94.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(95){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_95.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(96){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_96.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(97){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_97.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(98){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_98.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(99){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_99.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(100){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_100.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.arteco-1 a:nth-child(101){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_101.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(102){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_102.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(103){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_103.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.arteco-1 a:nth-child(104){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_104.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(105){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_105.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(106){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_106.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(107){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_107.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(108){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_108.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(109){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_109.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(110){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_110.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(111){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_111.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(112){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_112.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(113){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_113.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(114){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_114.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(115){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_115.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.arteco-1 a:nth-child(116){
+	background-image: url("../img/valpaint-dt-img/arteco-1/15_arteco_1_116.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+		.arteco-1 a {height: 80px;}

@@ -1,0 +1,211 @@
+.valsetin {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 12(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.valsetin a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.valsetin a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.valsetin a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_7.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_8.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_9.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_10.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_11.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_12.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_13.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_14.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_15.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(16){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_16.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(17){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_17.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(18){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_18.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(19){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_19.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(20){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_20.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.valsetin a:nth-child(21){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_21.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(22){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_22.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(23){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_23.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(24){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_24.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(25){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_25.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(26){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_26.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(27){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_27.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(28){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_28.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(29){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_29.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(30){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_30.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(31){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_31.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(32){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_32.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(33){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_33.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(34){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_34.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(35){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_35.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(36){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_36.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(37){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_37.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(38){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_38.jpg");
+	background-size: cover;
+	background-position: center;
+}.valsetin a:nth-child(39){
+	background-image: url("../img/valpaint-dt-img/valsetin/valsetin_pattern_39.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+		.valsetin a {height: 80px;}

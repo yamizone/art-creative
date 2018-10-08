@@ -1,0 +1,1158 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:700');
+
+html {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1600px;
+	max-width: 90%;
+}
+body {
+  background-image: url("../img/bg.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	width: 1600px;
+	max-width: 90%;
+	-webkit-font-smoothing: antialiased;
+}
+header {
+	max-width: 100%;
+	position: relative;
+	width: 100%;
+}
+hr {
+	width: 100%;
+	border: none;
+	height: 1px;
+	/* Set the hr color */
+	color: black;
+	/* old IE */
+	background-color: #BDBDBD;
+	/* Modern Browsers */
+}
+
+
+
+
+.katalog{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2%;
+	width: 100%;
+}
+.katalog a{
+	font-family: 'Merienda', cursive;
+	font-size: 20px;
+	color: #E4F1FE;
+	background: linear-gradient(to left, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.2) 60%);
+	border: 3px solid #ECF0F1;
+	padding-left: 5px;
+}
+
+/*polistof*/
+.polistof {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 9(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.polistof a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/polistof/1_polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.polistof a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/polistof/2_polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.polistof a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/polistof/3_polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.polistof a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/polistof/4_polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.polistof a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/polistof/5_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/polistof/6_polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.polistof a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/polistof/7_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/polistof/8_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/polistof/9_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/polistof/10_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/polistof/11_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/polistof/12_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/polistof/13_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/polistof/14_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.polistof a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/polistof/15_polistof.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+
+
+.grid-vp-dt{
+	display: grid;
+  height: auto;
+	grid-template-columns: 62% 38%;
+	grid-template-areas: ". . ." ". . ." ;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+
+/* small gallery polistof*/
+.fling-minislide {width:86%; height:100%; overflow:hidden; position:relative; }
+.fling-minislide img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@media screen and (max-width:1200px) {
+.fling-minislide {top: 50px;}
+
+}
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+/* valpaint-dekorativne-tehnike*/
+.pages-vdt{
+	background-position: right;
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 0px 10px 10px #1D1D1D;
+	height: auto;
+	max-height: 100%;
+	width: auto;
+}
+
+.pagescover-vdt{
+	margin-top: -11px;
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.vdt-h1{
+	padding-left: 10%;
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 20px;
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+.vdt-p{
+	font-size: 14px;
+	margin-left: 3%;
+	margin-right: 3%;
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	opacity: 0.8	;
+}
+.grid-vdt, .grid2-vdt {
+  display: grid;
+  height: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 9(auto);
+	grid-template-areas: ". . ." ". . ." ". . .";
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	grid-column-gap: 2%;
+	grid-row-gap: 10px;
+}
+.grid-vdt-item{
+	border: 3px inset white;
+	height: 170px;
+}
+.grid-vdt a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/polistof.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid-vdt a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/arteco.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid-vdt a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/klondike.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid-vdt a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/klondike-light.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid-vdt a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/klondike-corten.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/sabulador.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid-vdt a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/sabulador-soft.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/valsetin.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/valsetin2.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(10){
+	background-image: url("../img/valpaint-dt-img/valrenna.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(11){
+	background-image: url("../img/valpaint-dt-img/arteco1.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(12){
+	background-image: url("../img/valpaint-dt-img/arteco3.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(13){
+	background-image: url("../img/valpaint-dt-img/rococo.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(14){
+	background-image: url("../img/valpaint-dt-img/anticando3.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(15){
+	background-image: url("../img/valpaint-dt-img/marmorino.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(16){
+	background-image: url("../img/valpaint-dt-img/burano.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(17){
+	background-image: url("../img/valpaint-dt-img/meteore-8.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(18){
+	background-image: url("../img/valpaint-dt-img/mavericks.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(19){
+	background-image: url("../img/valpaint-dt-img/meteore-10-cemento.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(20){
+	background-image: url("../img/valpaint-dt-img/meteore-10-marmorizzato.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(21){
+	background-image: url("../img/valpaint-dt-img/sabula-2.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(22){
+	background-image: url("../img/valpaint-dt-img/milicolor-eco.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(23){
+	background-image: url("../img/valpaint-dt-img/miraflor.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(24){
+	background-image: url("../img/valpaint-dt-img/velidor-fine.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(25){
+	background-image: url("../img/valpaint-dt-img/star.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-vdt a:nth-child(26){
+	background-image: url("../img/valpaint-dt-img/magic-light.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+
+
+.grid2-vdt a:nth-child(1){
+	background-image: url("../img/valpaint-dt-img/bg_corteccia.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid2-vdt a:nth-child(2){
+	background-image: url("../img/valpaint-dt-img/bg_elefante.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid2-vdt a:nth-child(3){
+	background-image: url("../img/valpaint-dt-img/bg_giraffa.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid2-vdt a:nth-child(4){
+	background-image: url("../img/valpaint-dt-img/bg_tigrebianca.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid2-vdt a:nth-child(5){
+	background-image: url("../img/valpaint-dt-img/bg_tigre.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid2-vdt a:nth-child(6){
+	background-image: url("../img/valpaint-dt-img/bg_pitone.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.grid2-vdt a:nth-child(7){
+	background-image: url("../img/valpaint-dt-img/bg_zebra.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid2-vdt a:nth-child(8){
+	background-image: url("../img/valpaint-dt-img/bg_leopardo.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid2-vdt a:nth-child(9){
+	background-image: url("../img/valpaint-dt-img/bg_coccodrillo.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.grid-vdt-item p{
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 14px;
+	padding-left: 10%;
+	padding-top: 0.4%;
+	text-transform: uppercase;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.9) 41%);
+}
+.grid-vdt a, .grid2-vdt a{
+	text-decoration:none;
+}
+.grid-vdt-item:hover{
+	border: 3px inset gray;
+}
+
+.pagescover-vdt hr{
+	width: 90%;
+}
+
+
+/*dekorativne-tehnike*/
+.grid-dt {
+  display: grid;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . ." ". . ." ". . .";
+	grid-gap: 5%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 5%;
+}
+.grid-dt-item{
+	border: 2px solid white;
+	height: 250px;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.6) 41%);
+}
+.grid-dt a:nth-child(1){
+	background-image: url("../img/dekorativne-tehnike/valpaint-dt.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-dt a:nth-child(2){
+	background-image: url("../img/dekorativne-tehnike/jungle.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-dt a:nth-child(3){
+	background-image: url("../img/dekorativne-tehnike/klasicne-boje.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-dt-item p{
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 14px;
+	padding-left: 10%;
+	padding-top: 0.4%;
+	text-transform: uppercase;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.9) 41%);
+}
+.grid-dt a{
+	text-decoration:none;
+}
+.grid-dt-item:hover{
+	background: transparent;
+}
+
+
+/*prozivodi*/
+.grid-proizvodi {
+  display: grid;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . ." ". . ." ". . .";
+	grid-gap: 5%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 5%;
+}
+.grid-proizvodi-item{
+	border: 2px solid white;
+	height: 250px;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0.6) 41%);
+}
+.grid-proizvodi a:nth-child(1){
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi a:nth-child(2){
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi a:nth-child(3){
+	background-image: url("../img/3.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi a:nth-child(4){
+	background-image: url("../img/4.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi a:nth-child(5){
+	background-image: url("../img/5.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi a:nth-child(6){
+	background-image: url("../img/6.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.grid-proizvodi-item p{
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 14px;
+	padding-left: 10%;
+	padding-top: 0.4%;
+	text-transform: uppercase;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.9) 41%);
+}
+.grid-proizvodi a{
+	text-decoration:none;
+}
+.grid-proizvodi-item:hover{
+	background: transparent;
+}
+
+
+
+/* pages css */
+.pageswrap{
+	background-image: url("../img/pagesbg.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 0px 10px 10px #1D1D1D;
+	height: auto;
+	max-height: 100%;
+}
+.pagescover{
+	margin-top: -11px;
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	height: auto;
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.pageshiny{
+	position: relative;
+	max-width: 100%;
+	height: 20px;
+	background: linear-gradient(to left, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.2) 60%);
+}
+.pageshiny p{
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 10px;
+	padding-left: 1%;
+	padding-top: 0.4%;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+.pageshiny p a{
+	color: #f6e58d;
+	font-family: monospace;
+	text-overflow: clip;
+	font-size: 10px;
+	padding-left: 1%;
+	padding-top: 0.4%;
+	text-transform: lowercase;
+	text-decoration: none;
+	margin-left: -0.8%;
+}
+/* -------------------------------------------------------------*/
+
+.wrap {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 0px 10px 10px #1D1D1D;
+}
+
+/* footer */
+.footer {
+  display: grid;
+	grid-template-columns: 49% 49%;
+	background-color: transparent;
+	grid-gap: 2%;
+	height: 50px;
+
+}
+.footer div a {
+	font-size: 12px;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	color: #BDBDBD;
+  text-decoration: none;
+	opacity: 0.5;
+}
+.footer iframe{
+	width: 96px;
+	height: 21px;
+	border: none;
+	float: right;
+	margin-top: -1%;
+}
+
+
+
+/* small description*/
+.grid-container {
+	display: grid;
+	grid-template-columns: 49% 49%;
+	background-color: transparent;
+	grid-gap: 2%;
+	height: auto;
+}
+.wrap1 {
+	background: url("../img/motto.jpg");
+	background-size: cover;
+	background-position: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: auto;
+  box-shadow: 0px 10px 10px #1D1D1D;
+}
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: justify;
+	max-width: 100%;
+	height: auto;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 1) 41%);
+}
+.grid-item h1 {
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.grid-item p {
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 15px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.wrap2 {
+	background: linear-gradient(to right bottom, #393f4d, black 50%);
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: auto;
+  	box-shadow: 0px 10px 10px #1D1D1D;
+}
+.grid-item2 {
+	padding: 20px;
+	font-size: 30px;
+	text-align: justify;
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* kontakt */
+.contact {
+	display: grid;
+	grid-template-columns: 49% 49%;
+	background-color: transparent;
+	grid-gap: 2%;
+	height: 50px;
+	margin-left: 2%;
+}
+.contact div a {
+	font-size: 12px;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	color: #BDBDBD;
+  text-decoration: none;
+}
+
+
+/* proizvodi */
+.ads {
+	display: grid;
+	grid-template-columns: 64% 34%;
+	background-color: transparent;
+	grid-gap: 2%;
+	height: 150px;
+}
+.centerimg {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+.links h1 {
+	font-size: 17px;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	text-transform: uppercase;
+	margin-left: 3%;
+	color: #EBFFC6;
+}
+.links hr {
+	width: 95%;
+	border: none;
+	height: 1px;
+	/* Set the hr color */
+	color: black;
+	/* old IE */
+	background-color: #BDBDBD;
+	/* Modern Browsers */
+}
+.links ul {
+	display: grid;
+	grid-template-columns: 49% 49%;
+	background-color: transparent;
+	grid-gap: 2%;
+}
+.links ul li a {
+	font-size: 12px;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	color: #BDBDBD;
+}
+.links img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	border-style: inset;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 0px 10px 10px #1D1D1D;
+}
+
+
+/* motto part */
+.motto {
+	text-transform: uppercase;
+	text-align: center;
+	height: 100%;
+	background: url("../img/motto.jpg");
+	background-size: cover;
+	background-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.motto hr {
+	width: 80%;
+	border: none;
+	height: 2px;
+	/* Set the hr color */
+	color: #FFF8E1;
+	/* old IE */
+	background-color: #d2dae2;
+	/* Modern Browsers */
+}
+.motto h1, h2 {
+	color: #FFF8E1;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.motto h1 {
+	font-size: 20px;
+	opacity: 0.8;
+}
+.motto h2 {
+	font-size: 17px;
+	opacity: 0.8;
+}
+.opacity {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.9) 41%);
+}
+
+/* slide */
+.test{
+	position: absolute;
+	vertical-align: bottom;
+	color: white;
+	overflow:visible;
+	top: 60%;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 15px;
+	text-transform: uppercase;
+	height: auto;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.9) 41%);
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	transition-duration: 0.5s;
+}
+
+.wrapslider {
+
+	border-right: 4px inset black;
+  border-top: 4px inset black;
+  border-bottom: 4px inset black;
+  box-shadow: 0px 10px 10px #1D1D1D;
+}
+.accordion {
+	margin: 0;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+.accordion ul {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	margin: 0;
+	padding: 0;
+}
+.accordion ul li {
+	display: table-cell;
+	vertical-align: bottom;
+	position: relative;
+	width: 16.666%;
+	height: 350px;
+	max-height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 500ms ease-in-out;
+	border-left: 5px inset black;
+
+}
+.accordion ul li div {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+.accordion ul li div a {
+	display: block;
+	height: 450px;
+	width: 100%;
+	position: relative;
+	z-index: 3;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	/*filter: invert(100%);*/
+	transition: all 300ms ease-in-out;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 2%, rgba(0, 0, 0, 0.6) 41%);
+}
+.accordion ul li div a * {
+	opacity: 0;
+	margin: 0;
+	width: 100%;
+	text-overflow: ellipsis;
+	position: relative;
+	z-index: 5;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transform: translateX(-20px);
+	transform: translateX(-20px);
+	-webkit-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.accordion ul li div a h2 {
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	top: 160px;
+}
+.accordion ul li div a p {
+	top: 160px;
+	font-size: 18px;
+	padding-left: 1em;
+}
+.accordion ul li:nth-child(1) {
+	background-image: url("../img/1.jpg");
+	background-position: bottom;
+}
+.accordion ul li:nth-child(2) {
+	background-image: url("../img/2.jpg");
+	background-position: 70% 0%;
+}
+.accordion ul li:nth-child(3) {
+	background-image: url("../img/3.jpg");
+	background-position: 50% 50%;
+}
+.accordion ul li:nth-child(4) {
+	background-image: url("../img/4.jpg");
+	background-position: 30% 40%;
+}
+.accordion ul li:nth-child(5) {
+	background-image: url("../img/5.jpg");
+	background-position: 60% 64%;
+}
+.accordion ul li:nth-child(6) {
+	background-image: url("../img/6.jpg");
+	background-position: 70% 25%;
+}
+.accordion ul li {
+	background-size: cover;
+}
+.accordion ul:hover li {
+	width: 10%;
+}
+.accordion ul:hover .test {
+	transform-origin: left top 0;
+	float: left;
+	left: 10%;
+	width: auto;
+	margin-top: 80px;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	transition-duration: 0.5s;
+}
+.accordion ul:hover li:hover .test{
+	display: none;
+}
+.accordion ul:hover li:hover {
+	width: 90%;
+}
+.accordion ul:hover li:hover a {
+	background: transparent;
+}
+.accordion ul:hover li:hover a * {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+@media screen and (max-width: 768px) {
+	html {
+		max-width: 100%;
+	}
+	body {
+		margin: 0;
+    max-width: 100%
+	}
+	.test{
+		display: none;
+	}
+	.accordion {
+		height: auto;
+	}
+	.accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+		position: relative;
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		-webkit-transition: none;
+		transition: none;
+		border-top: 4px solid black;
+	}
+	.accordion ul li div a * {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+    font-size: 12px;
+	}
+  .accordion ul li div a h2{font-size: 19px;}
+
+	.grid-container {display: block;}
+	.grid-item h1 {font-size: 16px;}
+	.grid-item p {font-size: 12px;}
+
+	.grid-proizvodi{display: table; padding-top: 5px;}
+	.grid-proizvodi a {position: relative;
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		-webkit-transition: none;
+		transition: none;
+		margin-top: 10px;
+		}
+		.vdt-h1{
+			font-size: 14px;
+		}
+		.vdt-p{
+			font-size: 10px;
+		}
+		.fling-miniside{
+			display: none;
+		}
+		.grid-vp-dt{
+				display: grid;
+				grid-template-columns: 100%;
+				grid-template-areas: ". . ." ". . ." ;
+				margin-left: 3%;
+				margin-right: 3%;
+				margin-top: 2%;
+				margin-bottom: 2%;
+				grid-column-gap: 2%;
+				grid-row-gap: 10px;
+		}
+		.grid-vdt p, .grid2-vdt p{font-size: 9px;}
+		.grid-vdt a, .grid2-vdt a{height: 100px;}
+		.grid-vdt-item{
+			display: flex;
+			height: auto;
+			width: auto;
+			border: none;
+		}
+		.grid-vdt-item:hover{
+			border: none;
+		}
+		.polistof a {height: 80px;}
+		.pageshiny{height: auto;}
+		.katalog{
+			display: flex;
+			flex-direction: column;
+			height: auto;
+			width: auto;
+			border: none;
+		}
+}
+
+
+
+/* navigation */
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+	/*CENTER*/
+	display: flex;
+	align-items: right;
+	justify-content:center;
+  box-shadow: 0px 10px 10px #1D1D1D;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: left;
+}
+/* Style the links inside the list items */
+ul.topnav li a {
+	display: inline-block;
+	color: #FFF8E1;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	font-family: Montserrat, sans-serif;
+	text-overflow: clip;
+	text-transform: uppercase;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+	background-color: #111;
+}
+
+/* navigation underline */
+.underline{
+  position:relative;
+}
+.underline:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: white;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.underline:hover:before,
+.underline:focus:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Hide the list item that contains the link that
+should open and close the topnav on small screens */
+ul.topnav li.icon {
+	display: none;
+}
+
+/* tablet */
+	@media screen and (max-width:768px) {
+		ul.topnav li a {
+			display: inline-block;
+			color: #FFF8E1;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			transition: 0.3s;
+			font-size: 14px;
+			font-family: Montserrat, sans-serif;
+			text-overflow: clip;
+			text-transform: uppercase;
+		}
+	}
+@media screen and (max-width:680px) {
+	ul.topnav li:not(:first-child) {
+		display: none;
+	}
+	ul.topnav li.icon {
+		display: flex;
+		margin-left: auto;
+	}
+	/** #slider{display: none;}
+}
+/* The "responsive" class is added to the topnav
+with JavaScript when the user clicks on the icon.
+This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+		ul.topnav.responsive {
+			position: relative;
+			display: block;
+		}
+		ul.topnav.responsive li.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		ul.topnav.responsive li {
+			float: none;
+			display: block;
+			position: relative;
+		}
+		ul.topnav.responsive li a {
+			display: block;
+			position: relative;
+			width: 100%;
+			text-align: left;
+		}
+	}
+}

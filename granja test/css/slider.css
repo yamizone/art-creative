@@ -1,0 +1,142 @@
+.slides {
+    padding: 0;
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    right: 10%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    padding-top: 10%;
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+
+
+
+
+.slide img {
+  position:absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    width:100%;
+    border: 2px solid gray;
+
+}
+
+.nav label {
+    width: 27%;
+    height: 11px;
+    display: none;
+    position: absolute;
+	  opacity: 0.4;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+
+    color: white;
+    font-size: 90pt;
+    text-align: left;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+  top:112%;
+	width: 80%;
+	height: 11px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 8px;
+	height: 8px;
+	margin: 0 4px;
+	position: fixed;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: black;
+  border: 1px solid white;
+
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 255, 255, 1);
+}
+
+@keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+@media screen and (max-width:768px) {
+
+.slides{
+  display: none;
+}

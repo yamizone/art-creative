@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Art Creative Studio</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Paul Lukic">
+  <meta name="viewport" content="width=device-width,
+                                 initial-scale=1.0, minimum-scale=1.0"/>
+  <link rel="icon" type="image/png" href="../img/creative-arts-logo.png" sizes="96x96">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+
+<!-- navigation -->
+<header>
+      <ul class="topnav" style="align-items:center;">
+        <li class="underline"><a href="../index.html">POČETNA</a></li>
+        <li class="underline"><a href="about.html">O NAMA</a></li>
+        <li class="underline"><a href="arhitekte.html">ARHITEKTE</a></li>
+        <li class="underline"><a href="proizvodi.html">PROIZVODI</a></li>
+        <li class="underline"><a href="galerija.html">GALERIJA</a></li>
+        <li class="underline"><a href="contact.html">KONTAKT</a></li>
+        <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </li>
+    </ul>
+</header>
+<br>
+<div class="pageswrap" style="background-image: none">
+  <div class="pagescover">
+    <div class="pageshiny"><p>Nalazite se ovde: Art-Creative<a href="galerija.html">/galerija/</a></p></div>
+    <style>
+
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+      margin-left: 5.2%;
+      width: 90%;
+      display: inline-block;
+
+
+    }
+
+    /* Hide the images by default */
+
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+      border: 1px inset black;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+
+      padding: 2px 16px;
+      color: white;
+      opacity: 0.5;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+      height: 150px;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+
+	@media screen and (max-width:769px) {
+    .column {
+      float: left;
+      width: 16.66%;
+      height: 90px;
+    }
+  }
+    </style>
+
+
+    <h2 style="text-align:center">Galerija</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../img/1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../img/2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../img/3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../img/4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../img/5.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../img/6.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../img/1.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../img/2.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../img/3.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../img/4.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../img/5.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../img/6.jpg" style="width:100%; max-height: 150px" onclick="currentSlide(6)" alt="Snowy Mountains">
+        </div>
+      </div>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+<!-- footer -->
+  <hr>
+  <div class="footer">
+    <div>
+      <p><a>Art Creative Studio © 2018 Sva prava zadržana.</a><p>
+    </div>
+    <div>
+      <br>
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMolerski-radovi-i-dekoracije-Zvornik-518848055201994%2F%3Fhc_ref%3DARTg_jCfMZO5Sy03JwaTv6MES-hYfRGHHbmPXoyhnqQ6YQ0_Nl5haI5KZTXPOf84ryg%26fref%3Dnf&width=450&layout=standard&action=like&size=small&show_faces=false&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  </div>
+
+</body>
